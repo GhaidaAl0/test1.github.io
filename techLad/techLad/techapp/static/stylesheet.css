@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+#topSec{
+    height: 40%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#MidSec{
+    height: 20%;
+    background-color: rgb(0, 0, 0);
+}
+#BotSec {
+    background-color:#0E989D;
+    height: 60vh;
+    position: flex;
+}
+
+
+#form {
+    position: absolute;
+    top: 32%;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 700px;
+    height: 400px;
+    border: 1px solid #0E989D;
+}
+.form-box input {
+    margin-bottom: 10px;
+}
+.form-box .btn {
+    width: 130px; 
+    height: 45px;
+    border-radius: 50px;
+    font-size: 20px;
+  
+}
+.form-box .btn-primary {
+    background-color: #0E989D; /* Specific color when enabled */
+    border-color: #0E989D;
+}
